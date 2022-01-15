@@ -1,9 +1,15 @@
-const categoriesEl = document.querySelectorAll('#categories');
-console.log(categoriesEl);
-const elements = document.querySelectorAll('.item');
-console.log(elements);
-const titleEl = document.querySelector('h2');
-console.log(titleEl.textContent);
+const categoriesRef = document.querySelectorAll('ul#categories li.item');
+console.log(categoriesRef);
+const categoriesItems = categoriesRef.length;
+console.log(`Number of categories: ${categoriesItems}`);
+
+categoriesItems.forEach(item => {
+    return categoriesItems.firstElementChild.textContent;
+});
+
+console.log(`Category: ${ categoriesItems }`);
+
+
 
 
 
